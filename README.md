@@ -14,7 +14,7 @@
 2) standardization the column values 
 3) finding the variance_inflation_factor value column wise
 ```
-## Things to keep a note
+## Points to keep a note
 
     The base minimum parameter which it expects is either a numpy array or a DataFrame.
 
