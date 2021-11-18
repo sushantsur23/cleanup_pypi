@@ -9,7 +9,7 @@ class Dataclean():
 
        The only things we need to keep in mind is make sure there is no column in date format if so once you have preprocessed it then use these functions.
        if any column has values in dataformat then it may give error.
-       Also in case of a DataFrame kindly ensure the first column is target column or dependent column. only then process using this function.
+       Also in case of a DataFrame kindly ensure the first column is target column or dependent column. only then start using this function.
 
     """
     def __init__(self, x):
