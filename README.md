@@ -13,7 +13,7 @@
 ``` 
 1) replacing null values
 2) standardization the column values 
-3) finding the variance_inflation_factor value  column wise
+3) finding the variance_inflation_factor value column wise
 ```
 
        The base minimum parameter which it expects is either a numpy array or a DataFrame.
