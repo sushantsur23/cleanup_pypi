@@ -3,8 +3,14 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 class Dataclean():
-    """
-    
+    """The library has 3 functions:- replacing null values, standardization and finding the variance_inflation_factor value column wise.
+
+       The base minimum parameter which it expects is either a numpy array or a DataFrame.
+
+       The only things we need to keep in mind is make sure there is no column in date format if so once you have preprocessed it then use these functions.
+       if any column has values in dataformat then it may give error.
+       Also in case of a DataFrame kindly ensure the first column is target column or dependent column. only then process using this function.
+
     """
     def __init__(self, x):
         self.x=x
