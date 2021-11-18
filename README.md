@@ -10,9 +10,11 @@
 #### Things to keep a note
 
 ### The library has 3 functions:- 
--[replacing null values]
--[standardization the column values] 
--[finding the variance_inflation_factor value  column wise]
+``` 
+replacing null values
+standardization the column values 
+finding the variance_inflation_factor value  column wise
+```
 
        The base minimum parameter which it expects is either a numpy array or a DataFrame.
 
