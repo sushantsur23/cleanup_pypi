@@ -4,10 +4,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 PROJECT_NAME = "cleanup_pypi"
-USER_NAME = "sushantsur23"
+USER_NAME = ""
 setuptools.setup(
     name=f"{PROJECT_NAME}-{USER_NAME}",
-    version="0.0.3",
+    version="0.0.4",
     author="sushantsur23",
     author_email="sushant_sur23@yahoo.co.in",
     description="implementation of cleanup data",
