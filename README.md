@@ -23,4 +23,14 @@
     Also in case of a DataFrame kindly ensure the first column is target column or dependent column. Only then start using this function.
 
 
-WHAT IS AN ISSUE??
+## example of use
+from cleanup.clean import Dataclean
+
+df = pd.read_csv('UCI_Credit_Card.csv')
+
+dc =Dataclean(df)
+
+df1=dc.standardize()
+
+print(df1)
+
