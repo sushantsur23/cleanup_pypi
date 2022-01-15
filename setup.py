@@ -3,11 +3,11 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-PROJECT_NAME = "cleanup_pypi"
+PROJECT_NAME = "data_cleanup"
 USER_NAME = "sushantsur23"
 setuptools.setup(
     name=f"{PROJECT_NAME}",
-    version="0.0.5",
+    version="0.0.6",
     author="sushantsur23",
     author_email="sushant_sur23@yahoo.co.in",
     description="implementation of cleanup data",
